@@ -16,8 +16,8 @@ Downloads/
 **Prerequisites:** [Rust](https://rustup.rs) 1.56+
 
 ```bash
-git clone https://github.com/timfinnigan/file-extension-grouper.git
-cd file-extension-grouper
+git clone https://github.com/timfinnigan/groupr.git
+cd groupr
 cargo install --path .
 ```
 

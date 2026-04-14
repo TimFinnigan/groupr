@@ -2,6 +2,10 @@
 name = "file-extension-grouper"
 version = "0.1.0"
 edition = "2021"
+description = "A fast, zero-dependency CLI that organizes files into subfolders by extension"
+repository = "https://github.com/timfinnigan/groupr"
+license = "MIT"
+keywords = ["cli", "files", "organizer", "extension"]
 
 [[bin]]
 name = "groupr"
