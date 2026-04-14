@@ -1,4 +1,4 @@
-# file-extension-grouper
+# groupr
 
 A fast, zero-dependency Rust CLI that organizes loose files in a folder by moving them into subfolders named after their file extension.
 
