@@ -21,12 +21,12 @@ cd file-extension-grouper
 cargo install --path .
 ```
 
-The binary is installed as `feg`.
+The binary is installed as `groupr`.
 
 ## Usage
 
 ```
-feg <directory> [--dry-run]
+groupr <directory> [--dry-run]
 ```
 
 | Argument | Description |
@@ -38,13 +38,13 @@ feg <directory> [--dry-run]
 
 ```bash
 # Organize your Downloads folder
-feg ~/Downloads
+groupr ~/Downloads
 
 # Preview first
-feg ~/Downloads --dry-run
+groupr ~/Downloads --dry-run
 
 # Organize the current directory
-feg .
+groupr .
 ```
 
 ### Sample output
@@ -69,7 +69,7 @@ Done: 3 file(s) moved.
 
 ```bash
 cargo build           # debug build
-cargo build --release # optimized build → target/release/feg
+cargo build --release # optimized build → target/release/groupr
 cargo test            # run unit tests
 ```
 

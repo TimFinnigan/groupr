@@ -8,7 +8,7 @@ fn main() {
     let args: Vec<String> = env::args().collect();
 
     if args.len() < 2 {
-        eprintln!("Usage: feg <directory> [--dry-run]");
+        eprintln!("Usage: groupr <directory> [--dry-run]");
         eprintln!("  Groups loose files in <directory> into subfolders by extension.");
         eprintln!("  --dry-run  Show what would happen without moving any files.");
         process::exit(1);
